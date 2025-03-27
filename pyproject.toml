@@ -1,0 +1,16 @@
+[project]
+name = "viewsync-v2"
+version = "0.1.0"
+description = "ViewSync en Python avec Flask et PyQt6"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask",
+    "flask-socketio",
+    "pyqt6",
+    "requests"
+]
+
+[build-system]
+requires = ["uv"]
+build-backend = "uv.build"
